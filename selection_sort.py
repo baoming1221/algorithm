@@ -13,24 +13,6 @@
 
 重复第二步，直到所有元素均排序完毕。
 '''
-#nums = [4,2,3,6,5]
-# nums1 = [6,3,8,1,5]
-#
-# def slt_sort(a):
-#     for i in range(len(a)):
-#         min = i
-#         j = i + 1
-#         for j in range(len(a)):
-#             if a[j] <= a[min]:
-#                 min = j
-#             else:
-#                 pass
-#         if i != min:
-#             tmp = a[min]
-#             a[min] = a[i]
-#             a[i] = tmp
-#     return a
-# print(slt_sort(nums))
 
 a = [6,9,3,5,0,1,4,2,7]
 def slc_sort(t):
